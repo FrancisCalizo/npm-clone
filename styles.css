@@ -13,11 +13,16 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
+.nav i {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
 .nav > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
@@ -48,7 +53,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
@@ -56,7 +61,8 @@ body {
 }
 
 .search-div__logo {
-  width: 100px;
+  width: 85px;
+  padding-top: 0.2rem;
 }
 
 .search-div div:nth-child(2) {
@@ -66,23 +72,35 @@ body {
 
 .search-div__form {
   display: flex;
+  background: rgb(233, 232, 232);
 }
 
 .search-div__form div:nth-child(1) {
-  flex: 1;
+  padding: 1rem 0.5rem 1rem 1rem;
+  background: rgb(233, 232, 232);
 }
 
 .search-div__form div:nth-child(2) {
+  flex: 1;
+  margin: auto 0;
+}
+
+.search-div__form div:nth-child(3) {
   flex: 0 0 auto;
 }
 
 .search-div__searchbar {
   width: 100%;
   font-family: 'Fira Mono', monospace;
-  font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  padding: 0.8rem 0 0.8rem 0.8rem;
+  background: rgb(233, 232, 232);
   border: none;
+}
+
+.search-div__searchbar:focus {
+  outline-color: #5085f8d5;
+  outline-width: 2px;
 }
 
 .search-div__button {
@@ -103,4 +121,9 @@ body {
   background-color: #000;
   color: white;
   border: none;
+}
+
+/* Header Styles */
+.header-div {
+  background-image: url(./images/header.png);
 }

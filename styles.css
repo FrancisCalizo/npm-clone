@@ -9,14 +9,14 @@ body {
 .nav {
   width: 100%;
   border-bottom: 1px solid lightgray;
-  min-width: 850px; /*Keeps Border Bottom Extended on Window Size Small*/
 }
 
 .nav > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 12rem;
+  max-width: 1200px;
+  margin: 0 2rem;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   white-space: nowrap;
@@ -38,3 +38,17 @@ body {
 }
 
 /* Media Queries */
+.search-div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.search-div__logo {
+  width: 100px;
+}

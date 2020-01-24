@@ -30,19 +30,31 @@
         <div>
           <img
             class="search-div__logo"
-            src="./images//npm-black.jpg"
+            src="./images/npm-black.jpg"
             alt="npm-logo"
           />
         </div>
         <div>
-          <form action="!#">
-            <input type="text" placeholder="Search packages" />
-            <button>Search</button>
+          <form class="search-div__form" action="#!">
+            <div>
+              <input
+                class="search-div__searchbar"
+                type="text"
+                placeholder="Search packages"
+              />
+            </div>
+            <div>
+              <button class="search-div__button search-div__button--search">
+                Search
+              </button>
+            </div>
           </form>
         </div>
         <div>
-          <a href="#!">Sign Up</a>
-          <a href="#!">Sign In</a>
+          <a class="search-div__button search-div__button--border" href="#!"
+            >Sign Up</a
+          >
+          <a class="search-div__button" href="#!">Sign In</a>
         </div>
       </div>
     </div>

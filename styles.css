@@ -126,4 +126,55 @@ body {
 /* Header Styles */
 .header-div {
   background-image: url(./images/header.png);
+  background-size: cover;
+  color: white;
+}
+
+.header-div__container {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-div h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.4rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  padding: 5.6rem 0 3rem;
+}
+.header-div h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin: 2rem 0;
+  line-height: 2.7rem;
+}
+
+.header-div p {
+  font-family: 'Arimo', sans-serif;
+}
+
+.header-div__button-div {
+  padding-bottom: 2rem;
+}
+
+.header-div__button {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: inherit;
+  padding: 1.2rem 3rem;
+  margin: 2.5rem 1rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.header-div__button--red {
+  background: #c12127;
+  border-bottom: 5px solid #fa8717;
+}
+
+.header-div__button--purple {
+  background: #e81aa8;
+  border-bottom: 5px solid #b30ad2;
 }

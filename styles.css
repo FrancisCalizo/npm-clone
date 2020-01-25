@@ -18,11 +18,24 @@ body {
   margin-left: 0.5rem;
 }
 
+.nav__acronym:hover,
+.nav i:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav__acronym:hover {
+  cursor: pointer;
+}
+
+.nav i:hover {
+  cursor: crosshair;
+}
+
 .nav > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
@@ -39,6 +52,10 @@ body {
   cursor: pointer;
 }
 
+.nav__list li:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .nav__list a {
   text-decoration: none;
   color: inherit;
@@ -53,7 +70,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
@@ -100,7 +117,7 @@ body {
 
 .search-div__searchbar:focus {
   outline-color: #5085f8d5;
-  outline-width: 2px;
+  outline-width: 5px;
 }
 
 .search-div__button {
@@ -163,7 +180,7 @@ body {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: inherit;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 2.5rem;
   margin: 2.5rem 1rem;
   box-sizing: border-box;
   font-weight: bold;

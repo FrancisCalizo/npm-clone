@@ -11,12 +11,12 @@ const acronyms = [
   'Nunchaku Pizza Master'
 ];
 
-const getRandomAcronym = () => {
-  return Math.floor(Math.random() * acronyms.length);
+const getRandomAcronym = arr => {
+  return Math.floor(Math.random() * arr.length);
 };
 
 window.addEventListener('load', function() {
-  navAcronym.innerHTML = acronyms[getRandomAcronym()];
+  navAcronym.innerHTML = acronyms[getRandomAcronym(acronyms)];
 });
 
 navAcronym.addEventListener('click', function() {
@@ -24,5 +24,5 @@ navAcronym.addEventListener('click', function() {
     return e !== this.innerHTML;
   });
 
-  navAcronym.innerHTML = newAcronyms[getRandomAcronym()];
+  navAcronym.innerHTML = newAcronyms[getRandomAcronym(newAcronyms)];
 });

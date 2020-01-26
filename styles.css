@@ -196,6 +196,41 @@ body {
   border-bottom: 5px solid #b30ad2;
 }
 
+/* Details Styling */
+.detail-div > div:nth-child(1) {
+  text-align: center;
+  margin: 4rem auto;
+  width: 510px;
+}
+
+.details__blob-image {
+  width: 130px;
+}
+
+.detail-div h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+.detail-div p {
+  font-family: 'Arimo', sans-serif;
+  font-weight: light;
+  line-height: 1.5rem;
+}
+
+.detail-div__card {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0 10rem;
+}
+
+.detail-div__card div > div {
+  padding: 0.5rem;
+}
+
 /* Media Query Styling */
 @media (max-width: 700px) {
   .nav > div > div:nth-child(1) {

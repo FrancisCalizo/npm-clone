@@ -284,6 +284,7 @@ body {
   padding-bottom: 1rem;
 }
 
+/* Companies Styling */
 .companies-div > div {
   max-width: 520px;
   margin: 5rem auto;
@@ -300,6 +301,42 @@ body {
   display: block;
   width: 470px;
   margin: 0 auto;
+}
+
+/* Footer Styling */
+.footer-div {
+  border-top: 1px solid lightgray;
+}
+
+.footer-div__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  padding-left: 3rem;
+}
+
+.footer-div__item {
+  width: 22%;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
+
+.footer-div__item h4 {
+  letter-spacing: 1.5px;
+}
+
+.footer-div__item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-div__container li {
+  margin: 1rem auto;
+}
+.footer-div__container a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Media Query Styling */
@@ -335,7 +372,7 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 690px) {
   .nav > div > div:nth-child(1) {
     display: none;
   }
@@ -361,9 +398,6 @@ body {
     order: 2;
     margin-right: 1rem;
   }
-}
-
-@media (max-width: 690px) {
   .detail-div__card-item {
     width: 14em;
     margin: auto 0;
@@ -371,5 +405,13 @@ body {
 
   .detail-div__card-div div > div p {
     min-height: 130px;
+  }
+
+  .footer-div__container {
+    justify-content: flex-start;
+  }
+
+  .footer-div__item {
+    width: 50%;
   }
 }

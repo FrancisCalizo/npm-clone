@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Poppins:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 
+:root {
+  --poppins: 'Poppins', sans-serif;
+  --fira: 'Fira Mono', monospace;
+  --arimo: 'Arimo', sans-serif;
+}
+
 /* Navbar Styles */
 body {
   margin: 0;
@@ -37,7 +43,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 0.9rem;
   white-space: nowrap;
 }
@@ -72,7 +78,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 0.9rem;
   white-space: nowrap;
 }
@@ -108,7 +114,7 @@ body {
 
 .search-div__searchbar {
   width: 100%;
-  font-family: 'Fira Mono', monospace;
+  font-family: var(--fira);
   font-size: 0.9rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
   background: rgb(233, 232, 232);
@@ -132,7 +138,7 @@ body {
 }
 
 .search-div__button--search {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 0.9rem;
   font-weight: bold;
   background-color: #000;
@@ -154,21 +160,21 @@ body {
 }
 
 .header-div h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 4.4rem;
   letter-spacing: 0.1rem;
   margin: 0;
   padding: 5.6rem 0 3rem;
 }
 .header-div h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 2rem;
   margin: 2rem 0;
   line-height: 2.7rem;
 }
 
 .header-div p {
-  font-family: 'Arimo', sans-serif;
+  font-family: var(--arimo);
 }
 
 .header-div__button-div {
@@ -177,7 +183,7 @@ body {
 
 .header-div__button {
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   text-decoration: none;
   color: inherit;
   padding: 1.2rem 2.5rem;
@@ -208,7 +214,7 @@ body {
 }
 
 .detail-div h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 1.8rem;
   line-height: 2.5rem;
   letter-spacing: 1.1px;
@@ -216,7 +222,7 @@ body {
 }
 
 .detail-div p {
-  font-family: 'Arimo', sans-serif;
+  font-family: var(--arimo);
   font-weight: light;
   line-height: 1.3rem;
   color: #333333;
@@ -236,12 +242,12 @@ body {
 
 .detail-div__card-div > div > div {
   padding: 0.5rem 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   color: #333333;
 }
 
 .detail-div__card-div div > div p {
-  font-family: 'Arimo', sans-serif;
+  font-family: var(--arimo);
   font-size: 0.9rem;
   margin: 2rem auto;
   min-height: 120px;
@@ -274,12 +280,12 @@ body {
 }
 
 .banner-div h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 2.8rem;
 }
 
 .banner-div p {
-  font-family: 'Arimo', sans-serif;
+  font-family: var(--arimo);
   font-size: 1rem;
   padding-bottom: 1rem;
 }
@@ -291,7 +297,7 @@ body {
 }
 
 .companies-div > div h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   font-size: 2.2rem;
   color: #333333;
   text-align: center;
@@ -318,7 +324,7 @@ body {
 
 .footer-div__item {
   width: 22%;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   color: #333333;
 }
 

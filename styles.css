@@ -384,6 +384,10 @@ body {
     display: none;
   }
 
+  .nav > div div:nth-child(2) {
+    margin: 0 auto;
+  }
+
   .nav__list {
     padding: 0;
   }
@@ -427,7 +431,6 @@ body {
   .nav > div {
     width: 100%;
     font-size: 0.7rem;
-    margin: 0 auto;
   }
 
   .nav__list li {

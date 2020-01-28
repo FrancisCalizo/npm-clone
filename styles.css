@@ -308,7 +308,6 @@ body {
 .companies-div__image {
   display: block;
   width: 100%;
-  margin: 0 auto;
 }
 
 /* Footer Styling */
@@ -433,5 +432,11 @@ body {
 
   .nav__list li {
     margin: auto 0.5rem;
+  }
+
+  .detail-div__card-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }

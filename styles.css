@@ -42,6 +42,7 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   font-family: var(--poppins);
   font-size: 0.9rem;
@@ -293,6 +294,7 @@ body {
 /* Companies Styling */
 .companies-div > div {
   max-width: 520px;
+  width: 100%;
   margin: 5rem auto;
 }
 
@@ -305,7 +307,7 @@ body {
 
 .companies-div__image {
   display: block;
-  width: 470px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -419,5 +421,17 @@ body {
 
   .footer-div__item {
     width: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav > div {
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 0 auto;
+  }
+
+  .nav__list li {
+    margin: auto 0.5rem;
   }
 }

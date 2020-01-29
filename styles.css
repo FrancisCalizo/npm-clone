@@ -470,6 +470,34 @@ body {
   .footer-div__item {
     width: 50%;
   }
+
+  .sorry-container {
+    width: 400px;
+    margin: 2rem auto 0;
+  }
+
+  .sorry-container img {
+    width: 200px;
+  }
+
+  .sorry-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .sorry-body div:nth-child(2) > div {
+    padding: 1rem 2rem;
+  }
+
+  .sorry-container h2 {
+    font-family: var(--arimo);
+    font-size: 1.2rem;
+  }
+
+  .sorry-container a {
+    margin: 0.5rem auto;
+    font-size: 0.9rem;
+    padding: 1rem 4rem;
+  }
 }
 
 @media (max-width: 450px) {
